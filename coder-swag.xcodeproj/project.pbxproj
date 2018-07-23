@@ -13,6 +13,8 @@
 		CE3B464A210371C30054ABF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3B4649210371C30054ABF7 /* Assets.xcassets */; };
 		CE3B464D210371C30054ABF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B464B210371C30054ABF7 /* LaunchScreen.storyboard */; };
 		CE3B465821037DC60054ABF7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B465721037DC60054ABF7 /* CategoryCell.swift */; };
+		CE3B465A210380430054ABF7 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B4659210380430054ABF7 /* Category.swift */; };
+		CE3B465D210384730054ABF7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B465C210384730054ABF7 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE3B464C210371C30054ABF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3B464E210371C30054ABF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3B465721037DC60054ABF7 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		CE3B4659210380430054ABF7 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CE3B465C210384730054ABF7 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		CE3B4641210371C10054ABF7 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CE3B465B2103845E0054ABF7 /* Services */,
 				CE3B465621037D610054ABF7 /* View */,
 				CE3B465521037D580054ABF7 /* Model */,
 				CE3B465421037D4D0054ABF7 /* Controller */,
@@ -79,6 +84,7 @@
 		CE3B465521037D580054ABF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE3B4659210380430054ABF7 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				CE3B465721037DC60054ABF7 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CE3B465B2103845E0054ABF7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B465C210384730054ABF7 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				CE3B4645210371C10054ABF7 /* CategoriesVC.swift in Sources */,
 				CE3B4643210371C10054ABF7 /* AppDelegate.swift in Sources */,
 				CE3B465821037DC60054ABF7 /* CategoryCell.swift in Sources */,
+				CE3B465A210380430054ABF7 /* Category.swift in Sources */,
+				CE3B465D210384730054ABF7 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
